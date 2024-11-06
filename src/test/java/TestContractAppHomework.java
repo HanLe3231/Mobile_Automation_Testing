@@ -81,7 +81,7 @@ public class TestContractAppHomework {
                 AppiumBy.xpath("//android.widget.TextView[@text='Delete']"))).click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(
-                AppiumBy.id("android:id/button1"))).click(); // Assuming 'OK' button is to confirm deletion
+                AppiumBy.id("android:id/button1"))).click();
 
 
         try {
