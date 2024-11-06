@@ -186,7 +186,6 @@ public class TestMagentoWebApp {
             System.out.println("Expected: " + expectedEmail + " | Actual: " + actualEmail);
         }
 
-
     }
     @AfterClass
     public void tearDown() throws Exception {
